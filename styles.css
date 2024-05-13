@@ -1,0 +1,40 @@
+.hero-image-container {
+    width: 100vw;  
+    height: 50vh; 
+    overflow: hidden; 
+}
+
+.hero-image {
+    display: block; 
+    width: 100%;  
+    height: 50%; 
+    object-fit: cover; 
+}
+.img-size {
+    width: 189px;
+    height: 189px;
+    object-fit: cover; 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+    padding-bottom: 90px;
+}
+
+.card {
+    height: 400px; 
+    
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+
